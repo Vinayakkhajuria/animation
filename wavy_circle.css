@@ -7,14 +7,14 @@ body{
     display : flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 200vh;
     background:rgb(218, 217, 217);
 }
 .loader
 {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     transform-style :preserve-3d;
     transform: perspective(500px) rotateX(60deg);
 }
@@ -122,10 +122,10 @@ body{
 }
 .loader span:nth-child(11)
 {
-    top: 100px;
-    left: 100px;
-    bottom :100px;
-    right:100px;
+    top: 200px;
+    left: 200px;
+    bottom :150px;
+    right:150px;
     animation-delay :0.4s;
 }
 .loader span:nth-child(12)
